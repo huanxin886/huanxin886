@@ -5,26 +5,6 @@
 > "业余写代码的"
 
 
-### 🎯 技术栈
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![Scala](https://img.shields.io/badge/Scala-DC322F?style=for-the-badge&logo=scala&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
-
-
-#### 开发工具
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white)
-
-#### 开发环境
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Windows](https://img.shields.io/badge/Windows_11-0078D4?style=for-the-badge&logo=windows11&logoColor=white)  
-
-
 ### 📊 摸鱼统计
 
 <!--START_SECTION:waka-->
@@ -106,5 +86,5 @@ TypeScript               1 repo              ████░░░░░░░�
 ---
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=huanxin886&color=blueviolet&style=flat-square&label=Profile+Views" alt="Profile views" />
+  <img src="https://hits.sh/github.com/huanxin886.svg?style=flat-square&label=Profile%20Views&color=blueviolet" alt="Profile views" />
 </p>
