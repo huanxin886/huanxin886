@@ -8,13 +8,13 @@
 ### 📊 摸鱼统计
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-1%2C204%20hrs%209%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-1%2C207%20hrs%2016%20mins-blue?style=flat)
 
 ![Lines of code](https://img.shields.io/badge/%E4%BB%8E%E3%80%8CHello%20World%E3%80%8D%E8%B5%B7%E6%88%91%E5%B7%B2%E7%BB%8F%E5%86%99%E4%BA%86-296.32%20thousand%20%E8%A1%8C%E4%BB%A3%E7%A0%81-blue?style=flat)
 
 **🐱 我的 GitHub 数据** 
 
-> 📦  使用了 194 Bytes GitHub 存储空间 
+> 📦  使用了 196 Bytes GitHub 存储空间 
  > 
 > 🏆 120 个贡献，在 2026 年
  > 
@@ -51,28 +51,26 @@
 🕑︎ 时区: Asia/Shanghai
 
 💬 编程语言: 
-Other                    26 hrs 54 mins      █████████████████░░░░░░░░   67.48 % 
-Python                   3 hrs 15 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   08.16 % 
-Rust                     2 hrs 24 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   06.06 % 
-Markdown                 2 hrs 16 mins       █░░░░░░░░░░░░░░░░░░░░░░░░   05.72 % 
-PowerShell               1 hr 36 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.04 % 
+Other                    23 hrs 40 mins      █████████████████░░░░░░░░   66.16 % 
+Python                   3 hrs 15 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   09.12 % 
+Rust                     2 hrs 24 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   06.75 % 
+Markdown                 2 hrs 10 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   06.10 % 
+PowerShell               1 hr 32 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.30 % 
 
 🔥 编辑器: 
-VS Code                  17 hrs 46 mins      ███████████░░░░░░░░░░░░░░   44.57 % 
-Codex Vscode             11 hrs 53 mins      ███████░░░░░░░░░░░░░░░░░░   29.81 % 
-Codex CLI                9 hrs 43 mins       ██████░░░░░░░░░░░░░░░░░░░   24.39 % 
-Claude Code              16 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.69 % 
-Pi                       13 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.55 % 
+VS Code                  12 hrs 46 mins      █████████░░░░░░░░░░░░░░░░   35.73 % 
+Codex Vscode             11 hrs 53 mins      ████████░░░░░░░░░░░░░░░░░   33.23 % 
+Codex CLI                11 hrs 6 mins       ████████░░░░░░░░░░░░░░░░░   31.04 % 
 
 🐱‍💻 项目: 
-hx_github_atbot          17 hrs 25 mins      ███████████░░░░░░░░░░░░░░   43.69 % 
-Work                     11 hrs 14 mins      ███████░░░░░░░░░░░░░░░░░░   28.21 % 
-qzone_api                3 hrs 2 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.62 % 
-Claude_apk               2 hrs 32 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   06.38 % 
-cha                      2 hrs 3 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   05.18 % 
+hx_github_atbot          17 hrs 59 mins      █████████████░░░░░░░░░░░░   50.30 % 
+Work                     7 hrs 58 mins       ██████░░░░░░░░░░░░░░░░░░░   22.27 % 
+qzone_api                3 hrs 14 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   09.06 % 
+Claude_apk               2 hrs 5 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   05.86 % 
+cha                      2 hrs 3 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   05.78 % 
 
 💻 操作系统: 
-Windows                  39 hrs 52 mins      █████████████████████████   100.00 % 
+Windows                  35 hrs 46 mins      █████████████████████████   100.00 % 
 ```
 
 **我最常使用 Python** 
@@ -88,7 +86,7 @@ TypeScript               1 repo              ███░░░░░░░░�
 
 
 
- Last Updated on 11/10/2026 05:39:03 UTC
+ Last Updated on 12/10/2026 05:48:55 UTC
 <!--END_SECTION:waka-->
 
 ### 📫 联系我
