@@ -8,13 +8,13 @@
 ### 📊 摸鱼统计
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-1%2C215%20hrs%2053%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-1%2C216%20hrs%204%20mins-blue?style=flat)
 
 ![Lines of code](https://img.shields.io/badge/%E4%BB%8E%E3%80%8CHello%20World%E3%80%8D%E8%B5%B7%E6%88%91%E5%B7%B2%E7%BB%8F%E5%86%99%E4%BA%86-296.32%20thousand%20%E8%A1%8C%E4%BB%A3%E7%A0%81-blue?style=flat)
 
 **🐱 我的 GitHub 数据** 
 
-> 📦  使用了 205 Bytes GitHub 存储空间 
+> 📦  使用了 206 Bytes GitHub 存储空间 
  > 
 > 🏆 120 个贡献，在 2026 年
  > 
@@ -51,24 +51,24 @@
 🕑︎ 时区: Asia/Shanghai
 
 💬 编程语言: 
-Other                    11 hrs 32 mins      ██████████████░░░░░░░░░░░   57.19 % 
-PowerShell               3 hrs 4 mins        ████░░░░░░░░░░░░░░░░░░░░░   15.26 % 
-Python                   2 hrs 4 mins        ███░░░░░░░░░░░░░░░░░░░░░░   10.28 % 
-Image (png)              53 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.42 % 
-Markdown                 27 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.30 % 
+Other                    11 hrs 6 mins       ██████████████░░░░░░░░░░░   56.34 % 
+PowerShell               3 hrs 4 mins        ████░░░░░░░░░░░░░░░░░░░░░   15.58 % 
+Python                   2 hrs 4 mins        ███░░░░░░░░░░░░░░░░░░░░░░   10.53 % 
+Image (png)              53 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.52 % 
+Markdown                 27 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.35 % 
 
 🔥 编辑器: 
-VS Code                  20 hrs 11 mins      █████████████████████████   100.00 % 
+VS Code                  19 hrs 43 mins      █████████████████████████   100.00 % 
 
 🐱‍💻 项目: 
-Claude_apk               10 hrs 49 mins      █████████████░░░░░░░░░░░░   53.60 % 
-Work                     4 hrs 52 mins       ██████░░░░░░░░░░░░░░░░░░░   24.16 % 
-3D                       3 hrs 22 mins       ████░░░░░░░░░░░░░░░░░░░░░   16.69 % 
-cn.xihan.qdds            31 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.63 % 
-Unknown Project          29 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.45 % 
+Claude_apk               10 hrs 49 mins      ██████████████░░░░░░░░░░░   54.87 % 
+Work                     4 hrs 25 mins       ██████░░░░░░░░░░░░░░░░░░░   22.42 % 
+3D                       3 hrs 22 mins       ████░░░░░░░░░░░░░░░░░░░░░   17.08 % 
+cn.xihan.qdds            31 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.69 % 
+Unknown Project          29 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.49 % 
 
 💻 操作系统: 
-Windows                  20 hrs 11 mins      █████████████████████████   100.00 % 
+Windows                  19 hrs 43 mins      █████████████████████████   100.00 % 
 ```
 
 **我最常使用 Python** 
@@ -84,7 +84,7 @@ Java                     1 repo              ███░░░░░░░░�
 
 
 
- Last Updated on 19/10/2026 04:32:07 UTC
+ Last Updated on 20/10/2026 04:41:20 UTC
 <!--END_SECTION:waka-->
 
 ### 📫 联系我
