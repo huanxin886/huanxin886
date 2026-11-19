@@ -8,44 +8,44 @@
 ### 📊 摸鱼统计
 
 <!--START_SECTION:waka-->
-![Code Time](https://img.shields.io/badge/Code_Time-1218_hrs_26_mins-blue?style=flat)
+![Code Time](https://img.shields.io/badge/Code_Time-1218_hrs_53_mins-blue?style=flat)
 
-**📅 2026-11-09 ~ 2026-11-16**
+**📅 2026-11-10 ~ 2026-11-17**
 
 **💬 编程语言**
 
 ```text
-Other                    23 hrs 42 mins   █████████████░░░░░░░░░░░░ 51.42 %
-C#                       10 hrs 16 mins   ██████░░░░░░░░░░░░░░░░░░░ 22.28 %
-Image (png)              3 hrs 28 mins    ██░░░░░░░░░░░░░░░░░░░░░░░  7.54 %
-Python                   2 hrs 13 mins    █░░░░░░░░░░░░░░░░░░░░░░░░  4.81 %
-Markdown                 1 hr 59 mins     █░░░░░░░░░░░░░░░░░░░░░░░░  4.33 %
+Other                    19 hrs 54 mins   ██████████████░░░░░░░░░░░ 55.99 %
+C#                       4 hrs 57 mins    ███░░░░░░░░░░░░░░░░░░░░░░ 13.94 %
+Image (png)              3 hrs 0 mins     ██░░░░░░░░░░░░░░░░░░░░░░░  8.44 %
+Bash                     1 hr 48 mins     █░░░░░░░░░░░░░░░░░░░░░░░░  5.08 %
+Python                   1 hr 46 mins     █░░░░░░░░░░░░░░░░░░░░░░░░  5.01 %
 ```
 
 **🔥 编辑器**
 
 ```text
-VS Code                  41 hrs 38 mins   ███████████████████████░░ 90.29 %
-Codex CLI                1 hr 36 mins     █░░░░░░░░░░░░░░░░░░░░░░░░  3.47 %
+VS Code                  30 hrs 54 mins   ██████████████████████░░░ 86.94 %
+Codex CLI                1 hr 36 mins     █░░░░░░░░░░░░░░░░░░░░░░░░  4.50 %
 ```
 
 **🐱‍💻 项目**
 
 ```text
-asp-assistant-arknights  13 hrs 25 mins   ███████░░░░░░░░░░░░░░░░░░ 29.11 %
-Work                     13 hrs 23 mins   ███████░░░░░░░░░░░░░░░░░░ 29.03 %
-CasualtiesUnknown-SkinEd 11 hrs 33 mins   ██████░░░░░░░░░░░░░░░░░░░ 25.06 %
-SkinSync                 3 hrs 3 mins     ██░░░░░░░░░░░░░░░░░░░░░░░  6.62 %
-CuSaveManager            2 hrs 10 mins    █░░░░░░░░░░░░░░░░░░░░░░░░  4.73 %
+Work                     14 hrs 22 mins   ██████████░░░░░░░░░░░░░░░ 40.43 %
+asp-assistant-arknights  11 hrs 14 mins   ████████░░░░░░░░░░░░░░░░░ 31.62 %
+CasualtiesUnknown-SkinEd 5 hrs 15 mins    ████░░░░░░░░░░░░░░░░░░░░░ 14.79 %
+CuSaveManager            1 hr 16 mins     █░░░░░░░░░░░░░░░░░░░░░░░░  3.60 %
+athuajia                 1 hr 3 mins      █░░░░░░░░░░░░░░░░░░░░░░░░  2.98 %
 ```
 
 **💻 操作系统**
 
 ```text
-Windows                  46 hrs 7 mins    █████████████████████████ 100.00 %
+Windows                  35 hrs 33 mins   █████████████████████████ 100.00 %
 ```
 
-最后更新：2026-11-18 12:36:14 UTC
+最后更新：2026-11-19 12:26:53 UTC
 <!--END_SECTION:waka-->
 
 ### 📫 联系我
