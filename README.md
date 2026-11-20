@@ -10,42 +10,42 @@
 <!--START_SECTION:waka-->
 ![Code Time](https://img.shields.io/badge/Code_Time-1218_hrs_53_mins-blue?style=flat)
 
-**📅 2026-11-10 ~ 2026-11-17**
+**📅 2026-11-11 ~ 2026-11-18**
 
 **💬 编程语言**
 
 ```text
-Other                    19 hrs 54 mins   ██████████████░░░░░░░░░░░ 55.99 %
-C#                       4 hrs 57 mins    ███░░░░░░░░░░░░░░░░░░░░░░ 13.94 %
-Image (png)              3 hrs 0 mins     ██░░░░░░░░░░░░░░░░░░░░░░░  8.44 %
-Bash                     1 hr 48 mins     █░░░░░░░░░░░░░░░░░░░░░░░░  5.08 %
-Python                   1 hr 46 mins     █░░░░░░░░░░░░░░░░░░░░░░░░  5.01 %
+Other                    14 hrs 13 mins   █████████████████░░░░░░░░ 67.63 %
+Bash                     1 hr 48 mins     ██░░░░░░░░░░░░░░░░░░░░░░░  8.58 %
+C#                       1 hr 27 mins     ██░░░░░░░░░░░░░░░░░░░░░░░  6.93 %
+PowerShell               50 mins          █░░░░░░░░░░░░░░░░░░░░░░░░  3.99 %
+Markdown                 49 mins          █░░░░░░░░░░░░░░░░░░░░░░░░  3.92 %
 ```
 
 **🔥 编辑器**
 
 ```text
-VS Code                  30 hrs 54 mins   ██████████████████████░░░ 86.94 %
-Codex CLI                1 hr 36 mins     █░░░░░░░░░░░░░░░░░░░░░░░░  4.50 %
+VS Code                  17 hrs 32 mins   █████████████████████░░░░ 83.39 %
+Codex CLI                27 mins          █░░░░░░░░░░░░░░░░░░░░░░░░  2.15 %
 ```
 
 **🐱‍💻 项目**
 
 ```text
-Work                     14 hrs 22 mins   ██████████░░░░░░░░░░░░░░░ 40.43 %
-asp-assistant-arknights  11 hrs 14 mins   ████████░░░░░░░░░░░░░░░░░ 31.62 %
-CasualtiesUnknown-SkinEd 5 hrs 15 mins    ████░░░░░░░░░░░░░░░░░░░░░ 14.79 %
-CuSaveManager            1 hr 16 mins     █░░░░░░░░░░░░░░░░░░░░░░░░  3.60 %
-athuajia                 1 hr 3 mins      █░░░░░░░░░░░░░░░░░░░░░░░░  2.98 %
+Work                     13 hrs 8 mins    ████████████████░░░░░░░░░ 62.47 %
+CasualtiesUnknown-SkinEd 3 hrs 54 mins    █████░░░░░░░░░░░░░░░░░░░░ 18.56 %
+CuSaveManager            1 hr 4 mins      █░░░░░░░░░░░░░░░░░░░░░░░░  5.12 %
+athuajia                 1 hr 3 mins      █░░░░░░░░░░░░░░░░░░░░░░░░  5.03 %
+Claudecc                 35 mins          █░░░░░░░░░░░░░░░░░░░░░░░░  2.82 %
 ```
 
 **💻 操作系统**
 
 ```text
-Windows                  35 hrs 33 mins   █████████████████████████ 100.00 %
+Windows                  21 hrs 2 mins    █████████████████████████ 100.00 %
 ```
 
-最后更新：2026-11-19 12:26:53 UTC
+最后更新：2026-11-20 12:27:27 UTC
 <!--END_SECTION:waka-->
 
 ### 📫 联系我
