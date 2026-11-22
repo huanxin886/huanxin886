@@ -8,44 +8,43 @@
 ### 📊 摸鱼统计
 
 <!--START_SECTION:waka-->
-![Code Time](https://img.shields.io/badge/Code_Time-1219_hrs_2_mins-blue?style=flat)
+![Code Time](https://img.shields.io/badge/Code_Time-1219_hrs_38_mins-blue?style=flat)
 
-**📅 2026-11-12 ~ 2026-11-19**
+**📅 2026-11-13 ~ 2026-11-20**
 
 **💬 编程语言**
 
 ```text
-Other                    12 hrs 24 mins   █████████████████░░░░░░░░ 66.97 %
-Bash                     1 hr 48 mins     ██░░░░░░░░░░░░░░░░░░░░░░░  9.74 %
-C#                       52 mins          █░░░░░░░░░░░░░░░░░░░░░░░░  4.74 %
-PowerShell               50 mins          █░░░░░░░░░░░░░░░░░░░░░░░░  4.53 %
-Markdown                 46 mins          █░░░░░░░░░░░░░░░░░░░░░░░░  4.22 %
+Other                    12 hrs 21 mins   █████████████████░░░░░░░░ 68.44 %
+Bash                     1 hr 48 mins     ██░░░░░░░░░░░░░░░░░░░░░░░ 10.00 %
+Markdown                 1 hr 1 mins      █░░░░░░░░░░░░░░░░░░░░░░░░  5.69 %
+PowerShell               50 mins          █░░░░░░░░░░░░░░░░░░░░░░░░  4.65 %
+Image (png)              40 mins          █░░░░░░░░░░░░░░░░░░░░░░░░  3.77 %
 ```
 
 **🔥 编辑器**
 
 ```text
-VS Code                  15 hrs 3 mins    ████████████████████░░░░░ 81.27 %
-Codex CLI                25 mins          █░░░░░░░░░░░░░░░░░░░░░░░░  2.31 %
+VS Code                  15 hrs 1 mins    █████████████████████░░░░ 83.15 %
 ```
 
 **🐱‍💻 项目**
 
 ```text
-Work                     13 hrs 48 mins   ███████████████████░░░░░░ 74.47 %
-CasualtiesUnknown-SkinEd 1 hr 29 mins     ██░░░░░░░░░░░░░░░░░░░░░░░  8.05 %
-CuSaveManager            56 mins          █░░░░░░░░░░░░░░░░░░░░░░░░  5.04 %
-athuajia                 40 mins          █░░░░░░░░░░░░░░░░░░░░░░░░  3.62 %
-Claudecc                 35 mins          █░░░░░░░░░░░░░░░░░░░░░░░░  3.20 %
+Work                     13 hrs 30 mins   ███████████████████░░░░░░ 74.75 %
+CasualtiesUnknown-SkinEd 2 hrs 6 mins     ███░░░░░░░░░░░░░░░░░░░░░░ 11.69 %
+athuajia                 29 mins          █░░░░░░░░░░░░░░░░░░░░░░░░  2.71 %
+Unknown Project          28 mins          █░░░░░░░░░░░░░░░░░░░░░░░░  2.58 %
+huanxin996               24 mins          █░░░░░░░░░░░░░░░░░░░░░░░░  2.25 %
 ```
 
 **💻 操作系统**
 
 ```text
-Windows                  18 hrs 32 mins   █████████████████████████ 100.00 %
+Windows                  18 hrs 4 mins    █████████████████████████ 100.00 %
 ```
 
-最后更新：2026-11-21 12:00:24 UTC
+最后更新：2026-11-22 12:14:25 UTC
 <!--END_SECTION:waka-->
 
 ### 📫 联系我
