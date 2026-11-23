@@ -8,43 +8,43 @@
 ### 📊 摸鱼统计
 
 <!--START_SECTION:waka-->
-![Code Time](https://img.shields.io/badge/Code_Time-1219_hrs_38_mins-blue?style=flat)
+![Code Time](https://img.shields.io/badge/Code_Time-1219_hrs_49_mins-blue?style=flat)
 
-**📅 2026-11-13 ~ 2026-11-20**
+**📅 2026-11-14 ~ 2026-11-21**
 
 **💬 编程语言**
 
 ```text
-Other                    12 hrs 21 mins   █████████████████░░░░░░░░ 68.44 %
-Bash                     1 hr 48 mins     ██░░░░░░░░░░░░░░░░░░░░░░░ 10.00 %
-Markdown                 1 hr 1 mins      █░░░░░░░░░░░░░░░░░░░░░░░░  5.69 %
-PowerShell               50 mins          █░░░░░░░░░░░░░░░░░░░░░░░░  4.65 %
-Image (png)              40 mins          █░░░░░░░░░░░░░░░░░░░░░░░░  3.77 %
+Other                    11 hrs 48 mins   █████████████████░░░░░░░░ 67.98 %
+Bash                     1 hr 48 mins     ███░░░░░░░░░░░░░░░░░░░░░░ 10.41 %
+Markdown                 1 hr 2 mins      ██░░░░░░░░░░░░░░░░░░░░░░░  6.05 %
+PowerShell               45 mins          █░░░░░░░░░░░░░░░░░░░░░░░░  4.35 %
+Image (png)              40 mins          █░░░░░░░░░░░░░░░░░░░░░░░░  3.92 %
 ```
 
 **🔥 编辑器**
 
 ```text
-VS Code                  15 hrs 1 mins    █████████████████████░░░░ 83.15 %
+VS Code                  14 hrs 32 mins   █████████████████████░░░░ 83.72 %
 ```
 
 **🐱‍💻 项目**
 
 ```text
-Work                     13 hrs 30 mins   ███████████████████░░░░░░ 74.75 %
-CasualtiesUnknown-SkinEd 2 hrs 6 mins     ███░░░░░░░░░░░░░░░░░░░░░░ 11.69 %
-athuajia                 29 mins          █░░░░░░░░░░░░░░░░░░░░░░░░  2.71 %
-Unknown Project          28 mins          █░░░░░░░░░░░░░░░░░░░░░░░░  2.58 %
-huanxin996               24 mins          █░░░░░░░░░░░░░░░░░░░░░░░░  2.25 %
+Work                     12 hrs 55 mins   ███████████████████░░░░░░ 74.48 %
+CasualtiesUnknown-SkinEd 2 hrs 13 mins    ███░░░░░░░░░░░░░░░░░░░░░░ 12.79 %
+Unknown Project          28 mins          █░░░░░░░░░░░░░░░░░░░░░░░░  2.69 %
+huanxin996               24 mins          █░░░░░░░░░░░░░░░░░░░░░░░░  2.34 %
+CuSaveManager            20 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░  1.99 %
 ```
 
 **💻 操作系统**
 
 ```text
-Windows                  18 hrs 4 mins    █████████████████████████ 100.00 %
+Windows                  17 hrs 21 mins   █████████████████████████ 100.00 %
 ```
 
-最后更新：2026-11-22 12:14:25 UTC
+最后更新：2026-11-23 13:58:05 UTC
 <!--END_SECTION:waka-->
 
 ### 📫 联系我
