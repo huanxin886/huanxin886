@@ -8,45 +8,45 @@
 ### 📊 摸鱼统计
 
 <!--START_SECTION:waka-->
-![Code Time](https://img.shields.io/badge/Code_Time-1219_hrs_49_mins-blue?style=flat)
+![Code Time](https://img.shields.io/badge/Code_Time-1220_hrs_20_mins-blue?style=flat)
 
-**📅 2026-11-16 ~ 2026-11-23**
+**📅 2026-11-18 ~ 2026-11-25**
 
 **💬 编程语言**
 
 ```text
-Other                    3 hrs 56 mins    ██████████████████░░░░░░░ 73.94 %
-Markdown                 42 mins          ███░░░░░░░░░░░░░░░░░░░░░░ 13.47 %
-C#                       17 mins          █░░░░░░░░░░░░░░░░░░░░░░░░  5.53 %
-YAML                     10 mins          █░░░░░░░░░░░░░░░░░░░░░░░░  3.29 %
-PowerShell               4 mins           ░░░░░░░░░░░░░░░░░░░░░░░░░  1.54 %
+Other                    2 hrs 52 mins    █████████████████░░░░░░░░ 66.28 %
+PowerShell               26 mins          ██░░░░░░░░░░░░░░░░░░░░░░░ 10.00 %
+Markdown                 25 mins          ██░░░░░░░░░░░░░░░░░░░░░░░  9.73 %
+C#                       17 mins          ██░░░░░░░░░░░░░░░░░░░░░░░  6.77 %
+YAML                     7 mins           █░░░░░░░░░░░░░░░░░░░░░░░░  2.94 %
 ```
 
 **🔥 编辑器**
 
 ```text
-VS Code                  4 hrs 58 mins    ███████████████████████░░ 93.48 %
-Codex Vscode             9 mins           █░░░░░░░░░░░░░░░░░░░░░░░░  2.88 %
-Codex CLI                1 min            ░░░░░░░░░░░░░░░░░░░░░░░░░  0.51 %
+VS Code                  4 hrs 8 mins     ████████████████████████░ 95.45 %
+Codex Vscode             9 mins           █░░░░░░░░░░░░░░░░░░░░░░░░  3.52 %
+Codex CLI                2 mins           ░░░░░░░░░░░░░░░░░░░░░░░░░  1.03 %
 ```
 
 **🐱‍💻 项目**
 
 ```text
-Work                     2 hrs 27 mins    ████████████░░░░░░░░░░░░░ 46.28 %
-CasualtiesUnknown-SkinEd 1 hr 19 mins     ██████░░░░░░░░░░░░░░░░░░░ 24.89 %
-huanxin996               24 mins          ██░░░░░░░░░░░░░░░░░░░░░░░  7.64 %
-athuajia                 12 mins          █░░░░░░░░░░░░░░░░░░░░░░░░  4.06 %
-xml-version-1-0-encoding 10 mins          █░░░░░░░░░░░░░░░░░░░░░░░░  3.39 %
+Work                     2 hrs 3 mins     ████████████░░░░░░░░░░░░░ 47.38 %
+CasualtiesUnknown-SkinEd 1 hr 19 mins     ████████░░░░░░░░░░░░░░░░░ 30.47 %
+athuajia                 13 mins          █░░░░░░░░░░░░░░░░░░░░░░░░  5.07 %
+xml-version-1-0-encoding 10 mins          █░░░░░░░░░░░░░░░░░░░░░░░░  4.15 %
+casualties-together      10 mins          █░░░░░░░░░░░░░░░░░░░░░░░░  3.99 %
 ```
 
 **💻 操作系统**
 
 ```text
-Windows                  5 hrs 19 mins    █████████████████████████ 100.00 %
+Windows                  4 hrs 20 mins    █████████████████████████ 100.00 %
 ```
 
-最后更新：2026-11-25 13:50:24 UTC
+最后更新：2026-11-26 13:29:41 UTC
 <!--END_SECTION:waka-->
 
 ### 📫 联系我
