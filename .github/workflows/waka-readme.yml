@@ -1,33 +1,54 @@
-name: Waka Readme
+name: Update Profile Metrics SVGs
 
 on:
   schedule:
-    - cron: '0 4 * * *'
+    # 每日 UTC 20:00（北京时间次日 04:00）自动刷新
+    - cron: '0 20 * * *'
+  push:
+    branches:
+      - main
   workflow_dispatch:
+
+concurrency:
+  group: profile-metrics-output
+  cancel-in-progress: true
 
 permissions:
   contents: write
 
 jobs:
-  update-readme:
-    name: Update Readme with Metrics
+  build-and-deploy-svgs:
+    name: Render & Deploy Profile SVGs
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Regenerate the waka section
+      - name: Run unit tests
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Generate profile SVGs
         env:
           WAKATIME_TOKEN: ${{ secrets.WAKATIME_TOKEN }}
-        run: python3 scripts/update_waka.py
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN || secrets.METRICS_TOKEN || github.token }}
+          GITHUB_USER: ${{ github.repository_owner }}
+        run: python3 scripts/update_waka.py --out-dir dist
 
-      - name: Commit and push
+      - name: Deploy SVGs to orphan output branch
         run: |
-          git config user.name "huanxin886"
-          git config user.email "arknightsbo996@gmail.com"
-          git add README.md
-          if git diff --cached --quiet; then
-            echo "README unchanged"
-            exit 0
-          fi
-          git commit -m "更新自述文件"
-          git push
+          tmp_dir="$(mktemp -d)"
+          cp dist/*.svg "$tmp_dir/"
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # 复用 actions/checkout 配置好的 origin 安全凭据推送单提交孤儿分支，避免拼接明文 token 与历史体积膨胀
+          git checkout --orphan temp-output
+          git rm -rf .
+          git clean -fdx
+          cp "$tmp_dir"/*.svg .
+          rm -rf "$tmp_dir"
+
+          git add -- *.svg
+          git commit -m "chore: update profile metrics svgs"
+          git push --force origin temp-output:output
