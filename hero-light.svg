@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 178" width="840" height="178">
+  <defs>
+    <linearGradient id="bgL" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="55%" stop-color="#f1f5f9"/>
+      <stop offset="100%" stop-color="#eef2ff"/>
+    </linearGradient>
+    <linearGradient id="hudBgL" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.88"/>
+      <stop offset="100%" stop-color="#f8fafc" stop-opacity="0.82"/>
+    </linearGradient>
+    <linearGradient id="accentLineL" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0"/>
+      <stop offset="35%" stop-color="#0284c7" stop-opacity="0.75"/>
+      <stop offset="70%" stop-color="#059669" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#059669" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="rankGradL" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+    <linearGradient id="quoteBarL" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+    <g id="slashesL">
+      <polygon points="3,0 6,0 3,10 0,10" fill="#0284c7"/>
+      <polygon points="8.5,0 11.5,0 8.5,10 5.5,10" fill="#10b981" fill-opacity="0.70"/>
+    </g>
+    <filter id="glowL" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="28"/>
+    </filter>
+    <pattern id="gridL" width="22" height="22" patternUnits="userSpaceOnUse">
+      <path d="M 22 0 L 0 0 0 22" fill="none" stroke="#0f172a" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+    <clipPath id="cardClipL">
+      <rect x="2" y="2" width="836" height="174" rx="12"/>
+    </clipPath>
+    <style>
+      .mono { font-family: 'Cascadia Code', 'JetBrains Mono', 'Fira Code', Consolas, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei UI', 'PingFang SC', system-ui, sans-serif; }
+      .gl { fill: #0284c7; font-weight: 600; }
+      .dm { fill: #94a3b8; }
+      .tx { fill: #0f172a; }
+      .fr { opacity: 0; animation-duration: 9.6s; animation-iteration-count: infinite; animation-timing-function: steps(1, end); }
+      @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+      @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
+      @keyframes ringFill { from { stroke-dashoffset: 207.35; } to { stroke-dashoffset: 151.56; } }
+      .cursor { animation: blink 1s infinite; }
+      .dot-live { animation: pulse 2.4s ease-in-out infinite; }
+      .rank-arc { stroke-dasharray: 207.35; stroke-dashoffset: 151.56; animation: ringFill 1.4s cubic-bezier(0.22, 1, 0.36, 1) forwards; }
+      @keyframes k0  { 0% { opacity: 1; } 1.2% { opacity: 0; } 100% { opacity: 0; } }
+      @keyframes k1  { 0% { opacity: 0; } 1.2% { opacity: 1; } 2.4% { opacity: 0; } 100% { opacity: 0; } }
+      @keyframes k2  { 0% { opacity: 0; } 2.4% { opacity: 1; } 3.6% { opacity: 0; } 100% { opacity: 0; } }
+      @keyframes k3  { 0% { opacity: 0; } 3.6% { opacity: 1; } 4.8% { opacity: 0; } 100% { opacity: 0; } }
+      @keyframes k4  { 0% { opacity: 0; } 4.8% { opacity: 1; } 6.0% { opacity: 0; } 100% { opacity: 0; } }
+      @keyframes k5  { 0% { opacity: 0; } 6.0% { opacity: 1; } 7.2% { opacity: 0; } 100% { opacity: 0; } }
+      @keyframes k6  { 0% { opacity: 0; } 7.2% { opacity: 1; } 8.4% { opacity: 0; } 100% { opacity: 0; } }
+      @keyframes k7  { 0% { opacity: 0; } 8.4% { opacity: 1; } 9.6% { opacity: 0; } 100% { opacity: 0; } }
+      @keyframes k8  { 0% { opacity: 0; } 9.6% { opacity: 1; } 10.8% { opacity: 0; } 100% { opacity: 0; } }
+      @keyframes k9  { 0% { opacity: 0; } 10.8% { opacity: 1; } 12.0% { opacity: 0; } 100% { opacity: 0; } }
+      @keyframes k10 { 0% { opacity: 0; } 12.0% { opacity: 1; } 13.2% { opacity: 0; } 100% { opacity: 0; } }
+      @keyframes k11 { 0% { opacity: 0; } 13.2% { opacity: 1; } 14.4% { opacity: 0; } 100% { opacity: 0; } }
+      @keyframes k12 { 0% { opacity: 0; } 14.4% { opacity: 1; } 15.6% { opacity: 0; } 100% { opacity: 0; } }
+      @keyframes k13 { 0% { opacity: 0; } 15.6% { opacity: 1; } 16.8% { opacity: 0; } 100% { opacity: 0; } }
+      @keyframes k14 { 0% { opacity: 0; } 16.8% { opacity: 1; } 46.4% { opacity: 0; } 100% { opacity: 0; } }
+      @keyframes k15 { 0% { opacity: 0; } 46.4% { opacity: 1; } 47.6% { opacity: 0; } 100% { opacity: 0; } }
+      @keyframes k16 { 0% { opacity: 0; } 47.6% { opacity: 1; } 48.8% { opacity: 0; } 100% { opacity: 0; } }
+      @keyframes k17 { 0% { opacity: 0; } 48.8% { opacity: 1; } 50.0% { opacity: 0; } 100% { opacity: 0; } }
+      @keyframes k18 { 0% { opacity: 0; } 50.0% { opacity: 1; } 51.2% { opacity: 0; } 100% { opacity: 0; } }
+      @keyframes k19 { 0% { opacity: 0; } 51.2% { opacity: 1; } 52.4% { opacity: 0; } 100% { opacity: 0; } }
+      @keyframes k20 { 0% { opacity: 0; } 52.4% { opacity: 1; } 53.6% { opacity: 0; } 100% { opacity: 0; } }
+      @keyframes k21 { 0% { opacity: 0; } 53.6% { opacity: 1; } 54.8% { opacity: 0; } 100% { opacity: 0; } }
+      @keyframes k22 { 0% { opacity: 0; } 54.8% { opacity: 1; } 56.0% { opacity: 0; } 100% { opacity: 0; } }
+      @keyframes k23 { 0% { opacity: 0; } 56.0% { opacity: 1; } 57.2% { opacity: 0; } 100% { opacity: 0; } }
+      @keyframes k24 { 0% { opacity: 0; } 57.2% { opacity: 1; } 58.4% { opacity: 0; } 100% { opacity: 0; } }
+      @keyframes k25 { 0% { opacity: 0; } 58.4% { opacity: 1; } 59.6% { opacity: 0; } 100% { opacity: 0; } }
+      @keyframes k26 { 0% { opacity: 0; } 59.6% { opacity: 1; } 60.8% { opacity: 0; } 100% { opacity: 0; } }
+      @keyframes k27 { 0% { opacity: 0; } 60.8% { opacity: 1; } 62.0% { opacity: 0; } 100% { opacity: 0; } }
+      @keyframes k28 { 0% { opacity: 0; } 62.0% { opacity: 1; } 63.2% { opacity: 0; } 100% { opacity: 0; } }
+      @keyframes k29 { 0% { opacity: 0; } 63.2% { opacity: 1; } 64.4% { opacity: 0; } 100% { opacity: 0; } }
+      @keyframes k30 { 0% { opacity: 0; } 64.4% { opacity: 1; } 96.4% { opacity: 0; } 100% { opacity: 0; } }
+      @keyframes k31 { 0% { opacity: 0; } 96.4% { opacity: 1; } 98.2% { opacity: 0; } 100% { opacity: 0; } }
+      @keyframes k32 { 0% { opacity: 0; } 98.2% { opacity: 1; } 100% { opacity: 1; } }
+      .f0 { animation-name: k0; } .f1 { animation-name: k1; } .f2 { animation-name: k2; } .f3 { animation-name: k3; } .f4 { animation-name: k4; } .f5 { animation-name: k5; } .f6 { animation-name: k6; } .f7 { animation-name: k7; } .f8 { animation-name: k8; } .f9 { animation-name: k9; } .f10 { animation-name: k10; } .f11 { animation-name: k11; } .f12 { animation-name: k12; } .f13 { animation-name: k13; } .f14 { animation-name: k14; } .f15 { animation-name: k15; } .f16 { animation-name: k16; } .f17 { animation-name: k17; } .f18 { animation-name: k18; } .f19 { animation-name: k19; } .f20 { animation-name: k20; } .f21 { animation-name: k21; } .f22 { animation-name: k22; } .f23 { animation-name: k23; } .f24 { animation-name: k24; } .f25 { animation-name: k25; } .f26 { animation-name: k26; } .f27 { animation-name: k27; } .f28 { animation-name: k28; } .f29 { animation-name: k29; } .f30 { animation-name: k30; } .f31 { animation-name: k31; } .f32 { animation-name: k32; }
+    </style>
+  </defs>
+
+  <g clip-path="url(#cardClipL)">
+    <rect x="2" y="2" width="836" height="174" fill="url(#bgL)"/>
+    <rect x="2" y="2" width="836" height="174" fill="url(#gridL)"/>
+    <circle cx="145" cy="28" r="88" fill="#38bdf8" fill-opacity="0.16" filter="url(#glowL)"/>
+    <circle cx="690" cy="150" r="100" fill="#10b981" fill-opacity="0.14" filter="url(#glowL)"/>
+
+    <rect x="2" y="2" width="836" height="30" fill="#e2e8f0" fill-opacity="0.70"/>
+    <line x1="2" y1="32" x2="838" y2="32" stroke="#0f172a" stroke-opacity="0.09" stroke-width="1"/>
+    <circle cx="20" cy="17" r="4.3" fill="#ef4444" fill-opacity="0.85"/>
+    <circle cx="35" cy="17" r="4.3" fill="#f59e0b" fill-opacity="0.85"/>
+    <circle cx="50" cy="17" r="4.3" fill="#10b981" fill-opacity="0.85"/>
+    <text x="420" y="21" text-anchor="middle" class="mono" font-size="11" fill="#475569">huanxin886@dream: ~/profile (zsh)</text>
+    <circle cx="736" cy="17" r="3.5" fill="#059669" class="dot-live"/>
+    <text x="746" y="21" class="mono" font-size="10.5" fill="#334155">ONLINE · UTC+8</text>
+
+    <text x="26" y="57" class="mono" font-size="11.5" fill="#0284c7">❯ <tspan fill="#64748b">whoami --profile</tspan></text>
+
+    <text x="26" y="90" class="sans" font-size="25" font-weight="700" fill="#0f172a" letter-spacing="0.4">幻歆Hx</text>
+    <rect x="122" y="73" width="104" height="21" rx="5" fill="#0284c7" fill-opacity="0.10" stroke="#0284c7" stroke-opacity="0.30"/>
+    <text x="174" y="87.5" text-anchor="middle" class="mono" font-size="11.2" fill="#0369a1">@huanxin886</text>
+
+    <rect x="26" y="105" width="236" height="24" rx="5" fill="#e2e8f0" fill-opacity="0.65"/>
+    <rect x="26" y="105" width="3" height="24" rx="1.5" fill="url(#quoteBarL)"/>
+    <use href="#slashesL" x="36" y="112"/>
+    <text x="54" y="121" class="sans" font-size="12.2" fill="#334155" letter-spacing="0.3">你还沉浸在过往之中吗</text>
+
+    <text x="26" y="153" class="mono" font-size="11.8" fill="#0284c7">❯ <tspan fill="#64748b">stack:</tspan></text>
+
+    <g class="mono" font-size="11.8">
+      <g class="fr f0"><text x="90" y="153"><tspan class="gl">0x7F#K</tspan><tspan class="dm">9@!▓▒</tspan></text></g>
+      <g class="fr f1"><text x="90" y="153" class="tx">C# <tspan class="gl">· T¥</tspan><tspan class="dm">9@!▓▒░</tspan></text></g>
+      <g class="fr f2"><text x="90" y="153" class="tx">C# · T<tspan class="gl">¥p3$</tspan><tspan class="dm">#@7▓▒░</tspan></text></g>
+      <g class="fr f3"><text x="90" y="153" class="tx">C# · Type<tspan class="gl">$¢r1</tspan><tspan class="dm">8K!▓▒░</tspan></text></g>
+      <g class="fr f4"><text x="90" y="153" class="tx">C# · TypeScri<tspan class="gl">p+ ·</tspan><tspan class="dm">9@!#▓▒</tspan></text></g>
+      <g class="fr f5"><text x="90" y="153" class="tx">C# · TypeScript <tspan class="gl">· P¥</tspan><tspan class="dm">7F#K▓▒</tspan></text></g>
+      <g class="fr f6"><text x="90" y="153" class="tx">C# · TypeScript · P<tspan class="gl">¥+h0</tspan><tspan class="dm"> · 0x9▓</tspan></text></g>
+      <g class="fr f7"><text x="90" y="153" class="tx">C# · TypeScript · Pyth<tspan class="gl">0n ·</tspan><tspan class="dm">+h0n#▓</tspan></text></g>
+      <g class="fr f8"><text x="90" y="153" class="tx">C# · TypeScript · Python <tspan class="gl">· M0</tspan><tspan class="dm">0n · M▓</tspan></text></g>
+      <g class="fr f9"><text x="90" y="153" class="tx">C# · TypeScript · Python · M<tspan class="gl">0dd1</tspan><tspan class="dm">dd!n#▓</tspan></text></g>
+      <g class="fr f10"><text x="90" y="153" class="tx">C# · TypeScript · Python · Modd<tspan class="gl">1ng </tspan><tspan class="dm">1ng &amp; ▓</tspan></text></g>
+      <g class="fr f11"><text x="90" y="153" class="tx">C# · TypeScript · Python · Modding <tspan class="gl">&amp; T0</tspan><tspan class="dm"> T00l▓</tspan></text></g>
+      <g class="fr f12"><text x="90" y="153" class="tx">C# · TypeScript · Python · Modding &amp; T<tspan class="gl">00!1</tspan><tspan class="dm">l!ng▓</tspan></text></g>
+      <g class="fr f13"><text x="90" y="153" class="tx">C# · TypeScript · Python · Modding &amp; Tooli<tspan class="gl">ng█</tspan></text></g>
+      <g class="fr f14"><text x="90" y="153" class="tx">C# · TypeScript · Python · Modding &amp; Tooling<tspan fill="#0284c7" class="cursor">▋</tspan></text></g>
+      <g class="fr f15"><text x="90" y="153" class="tx">C# · Ty<tspan class="gl">p3$¢</tspan>ript · Py<tspan class="gl">+h0n</tspan><tspan class="dm"> · M▒dd1▓g &amp; T▒▒!1▓g</tspan></text></g>
+      <g class="fr f16"><text x="90" y="153"><tspan class="gl">gn1!0</tspan><tspan class="dm">▒T &amp; g▓1dd▒M · ▓▒h+yP · </tspan></text></g>
+      <g class="fr f17"><text x="90" y="153"><tspan class="gl">0x3E#9</tspan><tspan class="dm">▓▒░@!7K$</tspan></text></g>
+      <g class="fr f18"><text x="90" y="153" class="tx">Gam<tspan class="gl">3 M0</tspan><tspan class="dm">9@!▓▒░</tspan></text></g>
+      <g class="fr f19"><text x="90" y="153" class="tx">Game M<tspan class="gl">0dd1</tspan><tspan class="dm">#@7▓▒░</tspan></text></g>
+      <g class="fr f20"><text x="90" y="153" class="tx">Game Modd<tspan class="gl">1ng </tspan><tspan class="dm">8K!▓▒░</tspan></text></g>
+      <g class="fr f21"><text x="90" y="153" class="tx">Game Modding <tspan class="gl">· $k</tspan><tspan class="dm">9@!#▓▒</tspan></text></g>
+      <g class="fr f22"><text x="90" y="153" class="tx">Game Modding · S<tspan class="gl">k1n </tspan><tspan class="dm">7F#K▓▒</tspan></text></g>
+      <g class="fr f23"><text x="90" y="153" class="tx">Game Modding · Skin<tspan class="gl"> T00</tspan><tspan class="dm"> · 0x9▓</tspan></text></g>
+      <g class="fr f24"><text x="90" y="153" class="tx">Game Modding · Skin To<tspan class="gl">0!$ </tspan><tspan class="dm">+h0n#▓</tspan></text></g>
+      <g class="fr f25"><text x="90" y="153" class="tx">Game Modding · Skin Tools<tspan class="gl"> · D</tspan><tspan class="dm">0n · M▓</tspan></text></g>
+      <g class="fr f26"><text x="90" y="153" class="tx">Game Modding · Skin Tools · <tspan class="gl">D3$k</tspan><tspan class="dm">dd!n#▓</tspan></text></g>
+      <g class="fr f27"><text x="90" y="153" class="tx">Game Modding · Skin Tools · Desk<tspan class="gl">+0p </tspan><tspan class="dm">1ng &amp; ▓</tspan></text></g>
+      <g class="fr f28"><text x="90" y="153" class="tx">Game Modding · Skin Tools · Desktop<tspan class="gl"> &amp; C</tspan><tspan class="dm"> T00l▓</tspan></text></g>
+      <g class="fr f29"><text x="90" y="153" class="tx">Game Modding · Skin Tools · Desktop &amp; C<tspan class="gl">LI█</tspan></text></g>
+      <g class="fr f30"><text x="90" y="153" class="tx">Game Modding · Skin Tools · Desktop &amp; CLI<tspan fill="#0284c7" class="cursor">▋</tspan></text></g>
+      <g class="fr f31"><text x="90" y="153"><tspan class="gl">G@m3 </tspan><tspan class="dm">M▒dd1▓g · $k1▓ T▒▒!$ · D</tspan></text></g>
+      <g class="fr f32"><text x="90" y="153"><tspan class="gl">#9F!0x</tspan><tspan class="dm">7K@▓▒░</tspan></text></g>
+    </g>
+
+    <rect x="540" y="45" width="276" height="116" rx="10" fill="url(#hudBgL)" stroke="#0f172a" stroke-opacity="0.10" stroke-width="1"/>
+    <line x1="556" y1="45" x2="800" y2="45" stroke="url(#accentLineL)" stroke-width="1.5"/>
+    <use href="#slashesL" x="556" y="55"/>
+    <text x="573" y="64.5" class="mono" font-size="10.5" font-weight="600" fill="#0284c7" letter-spacing="0.8">GITHUB RATING</text>
+    <line x1="556" y1="73" x2="704" y2="73" stroke="#0f172a" stroke-opacity="0.10" stroke-dasharray="3 3"/>
+
+    <text x="556" y="94" class="mono" font-size="10.8" fill="#64748b">COMMITS (1Y)</text>
+    <text x="704" y="94" text-anchor="end" class="mono" font-size="11" font-weight="600" fill="#0f172a">213</text>
+
+    <text x="556" y="117" class="mono" font-size="10.8" fill="#64748b">MERGED PRs</text>
+    <text x="704" y="117" text-anchor="end" class="mono" font-size="11" font-weight="600" fill="#059669">8</text>
+
+    <text x="556" y="140" class="mono" font-size="10.8" fill="#64748b">ORG STARS</text>
+    <text x="704" y="140" text-anchor="end" class="mono" font-size="11" font-weight="600" fill="#0284c7">40</text>
+
+    <circle cx="762" cy="104" r="33" fill="#f1f5f9" fill-opacity="1" stroke="#cbd5e1" stroke-width="5.2"/>
+    <circle cx="762" cy="104" r="33" fill="none" stroke="url(#rankGradL)" stroke-width="5.2" stroke-linecap="round" transform="rotate(-90 762 104)" class="rank-arc"/>
+    <text x="762" y="106" text-anchor="middle" class="mono" font-size="20" font-weight="700" fill="#0f172a">B-</text>
+    <text x="762" y="120" text-anchor="middle" class="mono" font-size="8" fill="#059669">TOP 73%</text>
+  </g>
+
+  <rect x="2" y="2" width="836" height="174" rx="12" fill="none" stroke="#0f172a" stroke-opacity="0.12" stroke-width="1.2"/>
+</svg>

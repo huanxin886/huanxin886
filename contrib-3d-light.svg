@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 264" width="840" height="264">
+  <defs>
+    <linearGradient id="isoBgL" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#f1f5f9"/>
+    </linearGradient>
+    <linearGradient id="sideBgL" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.88"/>
+      <stop offset="100%" stop-color="#f8fafc" stop-opacity="0.82"/>
+    </linearGradient>
+    <filter id="isoGlowL" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="34"/>
+    </filter>
+    <clipPath id="isoClipL">
+      <rect x="2" y="2" width="836" height="260" rx="14"/>
+    </clipPath>
+
+    <g id="lv0">
+      <polygon points="-12.5,-2 0,3.8 0,5.8 -12.5,0" fill="#cbd5e1"/>
+      <polygon points="0,3.8 12.5,-2 12.5,0 0,5.8" fill="#94a3b8"/>
+      <polygon points="0,-7.8 12.5,-2 0,3.8 -12.5,-2" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="0.5"/>
+    </g>
+    <g id="lv1">
+      <polygon points="-12.5,-9 0,-3.2 0,5.8 -12.5,0" fill="#86efac"/>
+      <polygon points="0,-3.2 12.5,-9 12.5,0 0,5.8" fill="#4ade80"/>
+      <polygon points="0,-14.8 12.5,-9 0,-3.2 -12.5,-9" fill="#bbf7d0"/>
+    </g>
+    <g id="lv2">
+      <polygon points="-12.5,-17 0,-11.2 0,5.8 -12.5,0" fill="#22c55e"/>
+      <polygon points="0,-11.2 12.5,-17 12.5,0 0,5.8" fill="#16a34a"/>
+      <polygon points="0,-22.8 12.5,-17 0,-11.2 -12.5,-17" fill="#4ade80"/>
+    </g>
+    <g id="lv3">
+      <polygon points="-12.5,-26 0,-20.2 0,5.8 -12.5,0" fill="#10b981"/>
+      <polygon points="0,-20.2 12.5,-26 12.5,0 0,5.8" fill="#059669"/>
+      <polygon points="0,-31.8 12.5,-26 0,-20.2 -12.5,-26" fill="#34d399"/>
+    </g>
+    <g id="lv4">
+      <polygon points="-12.5,-36 0,-30.2 0,5.8 -12.5,0" fill="#0d9488"/>
+      <polygon points="0,-30.2 12.5,-36 12.5,0 0,5.8" fill="#0f766e"/>
+      <polygon points="0,-41.8 12.5,-36 0,-30.2 -12.5,-36" fill="#2dd4bf"/>
+    </g>
+
+    <g id="slashesL">
+      <polygon points="3,0 6,0 3,10 0,10" fill="#0284c7"/>
+      <polygon points="8.5,0 11.5,0 8.5,10 5.5,10" fill="#10b981" fill-opacity="0.70"/>
+    </g>
+    <style>
+      .mono { font-family: 'Cascadia Code', 'JetBrains Mono', 'Fira Code', Consolas, monospace; }
+    </style>
+  </defs>
+
+  <g clip-path="url(#isoClipL)">
+    <rect x="2" y="2" width="836" height="260" fill="url(#isoBgL)"/>
+    <circle cx="610" cy="155" r="135" fill="#10b981" fill-opacity="0.14" filter="url(#isoGlowL)"/>
+
+    <rect x="2" y="2" width="836" height="32" fill="#e2e8f0" fill-opacity="0.68"/>
+    <line x1="2" y1="34" x2="838" y2="34" stroke="#0f172a" stroke-opacity="0.09"/>
+    <text x="18" y="22" class="mono" font-size="11.5" fill="#0284c7">❯ <tspan fill="#334155">git log --isometric --duration=half-year</tspan></text>
+    <text x="822" y="22" text-anchor="end" class="mono" font-size="10.5" fill="#64748b">2.5D CONTRIBUTION TERRAIN</text>
+
+    <rect x="16" y="48" width="236" height="198" rx="11" fill="url(#sideBgL)" stroke="#0f172a" stroke-opacity="0.09"/>
+    <use href="#slashesL" x="32" y="62.5"/>
+    <text x="49" y="72" class="mono" font-size="10.5" font-weight="600" fill="#0284c7" letter-spacing="0.6">COMMIT MATRIX</text>
+    <text x="32" y="114" class="mono" font-size="34" font-weight="700" fill="#059669">235<tspan font-size="11.5" font-weight="400" fill="#64748b"> contribs / 1Y</tspan></text>
+    <text x="32" y="136" class="mono" font-size="11" fill="#0f172a">Nov Peak: 101 commits</text>
+    <text x="32" y="156" class="mono" font-size="11" fill="#475569">Merged PRs: 8 · Pull Shark</text>
+    <line x1="32" y1="176" x2="236" y2="176" stroke="#0f172a" stroke-opacity="0.09"/>
+    <text x="32" y="198" class="mono" font-size="10" fill="#64748b">INTENSITY SCALE</text>
+    <text x="32" y="226" class="mono" font-size="10" fill="#64748b">LESS</text>
+    <g transform="translate(76, 224) scale(0.55)"><use href="#lv0"/></g>
+    <g transform="translate(98, 224) scale(0.55)"><use href="#lv1"/></g>
+    <g transform="translate(120, 224) scale(0.55)"><use href="#lv2"/></g>
+    <g transform="translate(142, 224) scale(0.55)"><use href="#lv3"/></g>
+    <g transform="translate(164, 224) scale(0.55)"><use href="#lv4"/></g>
+    <text x="184" y="226" class="mono" font-size="10" fill="#64748b">MORE</text>
+
+    <use href="#lv0" x="430" y="75.0"/><use href="#lv0" x="415" y="81.5"/><use href="#lv0" x="400" y="88.0"/><use href="#lv0" x="385" y="94.5"/><use href="#lv0" x="370" y="101.0"/><use href="#lv0" x="355" y="107.5"/><use href="#lv0" x="340" y="114.0"/>
+    <use href="#lv0" x="445" y="81.5"/><use href="#lv0" x="430" y="88.0"/><use href="#lv0" x="415" y="94.5"/><use href="#lv0" x="400" y="101.0"/><use href="#lv0" x="385" y="107.5"/><use href="#lv0" x="370" y="114.0"/><use href="#lv0" x="355" y="120.5"/>
+    <use href="#lv0" x="460" y="88.0"/><use href="#lv0" x="445" y="94.5"/><use href="#lv0" x="430" y="101.0"/><use href="#lv0" x="415" y="107.5"/><use href="#lv0" x="400" y="114.0"/><use href="#lv0" x="385" y="120.5"/><use href="#lv0" x="370" y="127.0"/>
+    <use href="#lv4" x="475" y="94.5"/><use href="#lv1" x="460" y="101.0"/><use href="#lv0" x="445" y="107.5"/><use href="#lv0" x="430" y="114.0"/><use href="#lv0" x="415" y="120.5"/><use href="#lv0" x="400" y="127.0"/><use href="#lv0" x="385" y="133.5"/>
+    <use href="#lv1" x="490" y="101.0"/><use href="#lv1" x="475" y="107.5"/><use href="#lv2" x="460" y="114.0"/><use href="#lv0" x="445" y="120.5"/><use href="#lv0" x="430" y="127.0"/><use href="#lv0" x="415" y="133.5"/><use href="#lv0" x="400" y="140.0"/>
+    <use href="#lv0" x="505" y="107.5"/><use href="#lv0" x="490" y="114.0"/><use href="#lv0" x="475" y="120.5"/><use href="#lv0" x="460" y="127.0"/><use href="#lv0" x="445" y="133.5"/><use href="#lv0" x="430" y="140.0"/><use href="#lv0" x="415" y="146.5"/>
+    <use href="#lv0" x="520" y="114.0"/><use href="#lv0" x="505" y="120.5"/><use href="#lv0" x="490" y="127.0"/><use href="#lv1" x="475" y="133.5"/><use href="#lv0" x="460" y="140.0"/><use href="#lv1" x="445" y="146.5"/><use href="#lv0" x="430" y="153.0"/>
+    <use href="#lv0" x="535" y="120.5"/><use href="#lv0" x="520" y="127.0"/><use href="#lv0" x="505" y="133.5"/><use href="#lv0" x="490" y="140.0"/><use href="#lv0" x="475" y="146.5"/><use href="#lv0" x="460" y="153.0"/><use href="#lv0" x="445" y="159.5"/>
+    <use href="#lv0" x="550" y="127.0"/><use href="#lv0" x="535" y="133.5"/><use href="#lv0" x="520" y="140.0"/><use href="#lv0" x="505" y="146.5"/><use href="#lv0" x="490" y="153.0"/><use href="#lv0" x="475" y="159.5"/><use href="#lv0" x="460" y="166.0"/>
+    <use href="#lv0" x="565" y="133.5"/><use href="#lv0" x="550" y="140.0"/><use href="#lv0" x="535" y="146.5"/><use href="#lv0" x="520" y="153.0"/><use href="#lv0" x="505" y="159.5"/><use href="#lv0" x="490" y="166.0"/><use href="#lv0" x="475" y="172.5"/>
+    <use href="#lv0" x="580" y="140.0"/><use href="#lv0" x="565" y="146.5"/><use href="#lv0" x="550" y="153.0"/><use href="#lv0" x="535" y="159.5"/><use href="#lv0" x="520" y="166.0"/><use href="#lv0" x="505" y="172.5"/><use href="#lv0" x="490" y="179.0"/>
+    <use href="#lv0" x="595" y="146.5"/><use href="#lv0" x="580" y="153.0"/><use href="#lv0" x="565" y="159.5"/><use href="#lv1" x="550" y="166.0"/><use href="#lv1" x="535" y="172.5"/><use href="#lv0" x="520" y="179.0"/><use href="#lv0" x="505" y="185.5"/>
+    <use href="#lv0" x="610" y="153.0"/><use href="#lv0" x="595" y="159.5"/><use href="#lv0" x="580" y="166.0"/><use href="#lv0" x="565" y="172.5"/><use href="#lv0" x="550" y="179.0"/><use href="#lv0" x="535" y="185.5"/><use href="#lv1" x="520" y="192.0"/>
+    <use href="#lv4" x="625" y="159.5"/><use href="#lv2" x="610" y="166.0"/><use href="#lv2" x="595" y="172.5"/><use href="#lv0" x="580" y="179.0"/><use href="#lv1" x="565" y="185.5"/><use href="#lv0" x="550" y="192.0"/><use href="#lv0" x="535" y="198.5"/>
+    <use href="#lv0" x="640" y="166.0"/><use href="#lv0" x="625" y="172.5"/><use href="#lv0" x="610" y="179.0"/><use href="#lv0" x="595" y="185.5"/><use href="#lv0" x="580" y="192.0"/><use href="#lv0" x="565" y="198.5"/><use href="#lv0" x="550" y="205.0"/>
+    <use href="#lv0" x="655" y="172.5"/><use href="#lv0" x="640" y="179.0"/><use href="#lv0" x="625" y="185.5"/><use href="#lv0" x="610" y="192.0"/><use href="#lv0" x="595" y="198.5"/><use href="#lv0" x="580" y="205.0"/><use href="#lv0" x="565" y="211.5"/>
+    <use href="#lv0" x="670" y="179.0"/><use href="#lv3" x="655" y="185.5"/><use href="#lv0" x="640" y="192.0"/><use href="#lv0" x="625" y="198.5"/><use href="#lv0" x="610" y="205.0"/><use href="#lv0" x="595" y="211.5"/><use href="#lv0" x="580" y="218.0"/>
+    <use href="#lv0" x="685" y="185.5"/><use href="#lv0" x="670" y="192.0"/><use href="#lv0" x="655" y="198.5"/><use href="#lv0" x="640" y="205.0"/><use href="#lv0" x="625" y="211.5"/><use href="#lv0" x="610" y="218.0"/><use href="#lv0" x="595" y="224.5"/>
+    <use href="#lv0" x="700" y="192.0"/><use href="#lv0" x="685" y="198.5"/><use href="#lv4" x="670" y="205.0"/><use href="#lv0" x="655" y="211.5"/><use href="#lv1" x="640" y="218.0"/><use href="#lv1" x="625" y="224.5"/><use href="#lv0" x="610" y="231.0"/>
+    <use href="#lv1" x="715" y="198.5"/><use href="#lv0" x="700" y="205.0"/><use href="#lv1" x="685" y="211.5"/><use href="#lv4" x="670" y="218.0"/><use href="#lv1" x="655" y="224.5"/><use href="#lv3" x="640" y="231.0"/><use href="#lv3" x="625" y="237.5"/>
+    <use href="#lv1" x="730" y="205.0"/><use href="#lv1" x="715" y="211.5"/><use href="#lv1" x="700" y="218.0"/><use href="#lv1" x="685" y="224.5"/><use href="#lv1" x="670" y="231.0"/><use href="#lv1" x="655" y="237.5"/><use href="#lv1" x="640" y="244.0"/>
+  </g>
+
+  <rect x="2" y="2" width="836" height="260" rx="14" fill="none" stroke="#0f172a" stroke-opacity="0.12" stroke-width="1.2"/>
+</svg>
